@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>mSystem demo 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container" style="padding-top:50px;">
+        <div class="row" style="padding-bottom:40px;">
+            <div class="col-sm-12">
+                <img src="./images/logo.png" class="" style="float:left; width:400px; height:auto;">
+                <ul class="topnav" id="myTopnav" style="float:right;">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <!-- <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol> -->
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="row">
+                                <a href="./detail.html">
+                                    <div class="col-lg-15 col-md-4 col-sm-6">
+                                        <img src="./images/1.jpg" alt="Chania" class="img-responsive project_thumbnail">
+                                        <div class="thumbnail-description"> <span>The Ridge</span> </div>
+                                    </div>
+                                </a>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/2.jpg" alt="Chania" class="img-responsive project_thumbnail">
+                                    <div class="thumbnail-description"> <span>Villa Sutherland</span> </div>
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/3.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                    <div class="thumbnail-description"> <span>Azur</span> </div>
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/4.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                    <div class="thumbnail-description"> <span>Aja Villa</span> </div>
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/5.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                    <div class="thumbnail-description"> <span>Dream Coast Villa</span> </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/5.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                    <div class="thumbnail-description"> <span>Cascades</span> </div>
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/4.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                    <div class="thumbnail-description"> <span>Beijing Olympic/span> </div>
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/3.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                    <div class="thumbnail-description"> <span>Urban Harvest Singapore</span> </div>
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/2.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                    <div class="thumbnail-description"> <span>Zen dacha</span> </div>
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/1.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                    <div class="thumbnail-description"> <span>Koh Shami Country Club Department</span> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="item">
+                            <div class="row">
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/2.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/2.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/2.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/2.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/2.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/2.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/2.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/2.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/2.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                </div>
+                                <div class="col-lg-15 col-md-4 col-sm-6">
+                                    <img src="./images/2.jpg" alt="Chania" class="img-responsive project_thumbnail ">
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <!-- Left and right controls -->
+                    <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-xs-12">
+                <div>© 2016, MSYSTEM ARCHITECTURE. All Rights Reserved.</div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/menu.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
