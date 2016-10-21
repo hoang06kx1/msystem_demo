@@ -48,7 +48,7 @@
 
 .text-projects-type {
     margin-top: 12px;
-    color: #5e5e5e;
+    color: grey;
     font-family: centauri, arial;
     font-size: 13px;
 }
@@ -84,7 +84,7 @@ ul.topnav li a {
     font-family: centauri, Arial;    
     font-size: 11px;
     display: inline-block;
-    color: #5e5e5e;
+    color: grey;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -146,11 +146,11 @@ ul.topnav li.icon {
 
 .footer {
     float: right;
-    padding-top: 25px;
+    padding-top: 40px;
     font-family: Arial;
     font-style: italic;
     font-size: 11px;
-    color: #5e5e5e;
+    color: grey;
 }
 
 .padding {
@@ -167,13 +167,13 @@ body {
     margin: auto;
     height: 450px;
 }*/
-/*.carousel-control {
+.carousel-control {
     width: 0px;
     left: -32px;
 }
 
 .carousel-control.right {
-    color: #5e5e5e;
+    color: grey;
     right: -32px;
 }
 
@@ -182,12 +182,13 @@ body {
 }
 
 .glyphicon-chevron-left {
-    color: #5e5e5e;
+    color: grey;
 }
 
 .glyphicon-chevron-left:hover {
     color: #676767;
-}*/
+}
+
 .truncate {
     width: 100%;
     white-space: nowrap;
@@ -199,7 +200,7 @@ body {
     bottom: 10px;    
     padding: 10px;
     margin-right: 10px;
-    color: #5e5e5e;
+    color: grey;
     font-size: 9px;
     text-overflow: ellipsis;
     font-family: centauri, Arial;
@@ -211,8 +212,7 @@ body {
 }
 .project_thumbnail {
     display: inline-block;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
     height: 250px;
 }
@@ -223,7 +223,6 @@ body {
 .item .row div[class^="col"]:hover {
     transform: scale(1.03);
 }
-
 .hover-bigger {
     transition: all .1s ease-in-out;
 }
@@ -242,5 +241,18 @@ body {
 .detail-description {
     background: #fff;
     opacity: 0.8;
-    color: #5e5e5e;    
+    color: grey;    
+}
+.carousel-indicators li {
+    border: 1px solid grey;
+}
+.carousel-indicators .active { 
+    background-color: grey;
+}
+.carousel-indicators {
+    bottom: -40px;
+}
+#carousel-detail {
+    padding-left: 30px;
+    padding-right: 30px;
 }
