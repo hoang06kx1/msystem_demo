@@ -173,20 +173,20 @@ body {
 }
 
 .carousel-control.right {
-    color: grey;
+    color: #F26724;
     right: -32px;
 }
 
 .carousel-control.right:hover {
-    color: #676767;
+    color: #e6540e;
 }
 
 .glyphicon-chevron-left {
-    color: grey;
+    color: #F26724;
 }
 
 .glyphicon-chevron-left:hover {
-    color: #676767;
+    color: #e6540e;
 }
 
 .truncate {
@@ -244,10 +244,10 @@ body {
     color: grey;    
 }
 .carousel-indicators li {
-    border: 1px solid grey;
+    border: 1px solid #F26724;
 }
 .carousel-indicators .active { 
-    background-color: grey;
+    background-color: #F26724;
 }
 .carousel-indicators {
     bottom: -40px;
