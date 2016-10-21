@@ -173,7 +173,7 @@ body {
 }
 
 .carousel-control.right {
-    color: #F26724;
+    color: #f15c14;
     right: -32px;
 }
 
@@ -182,7 +182,7 @@ body {
 }
 
 .glyphicon-chevron-left {
-    color: #F26724;
+    color: #f15c14;
 }
 
 .glyphicon-chevron-left:hover {
@@ -197,7 +197,7 @@ body {
 }
 .thumbnail-description {    
     position: absolute;
-    bottom: 10px;    
+    bottom: 0;    
     padding: 10px;
     margin-right: 10px;
     color: grey;
