@@ -91,6 +91,7 @@ ul.topnav li a {
     padding-left: 12px;
     padding-right: 12px;
     text-decoration: none;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 
@@ -158,6 +159,7 @@ ul.topnav li.icon {
 }
 
 body {
+    -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     background-color: #f5f5f5;
 }
@@ -223,14 +225,17 @@ body {
 }
 
 .item .row div[class^="col"] {
+    -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
 }
 
 .item .row div[class^="col"]:hover {
-    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
 }
 
 .hover-bigger {
+    -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
 }
 
@@ -239,7 +244,8 @@ body {
     /* Firefox */
     /* IE 9 */
     /* Opera */
-    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
 }
 
 .carousel-detail-thumbnail {
@@ -358,4 +364,10 @@ body {
     padding-right: 25px;
     height: 500px;
     overflow-y: auto;
+}
+.about {
+    background-color: #fff;
+    opacity: 0.8;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
